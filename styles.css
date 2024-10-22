@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.banner{
+    background-image: linear-gradient(#001d3d,#023e8a,#001d3d), url(./assets/images/banner.png);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.banner-content{
+    border-bottom: 3px #00a6fb solid;
+    padding: 3.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner-content h1{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: bold;
+    color: #00a6fb;
+}
+
+.banner-content p{
+    color: whitesmoke;
+}
+
+.banner-content button {
+    color: #00a6fb;
+    background-color: transparent;
+    border: 3px solid #00a6fb;
+    text-transform: uppercase;
+}
+
+.banner-content button p{
+    font-size: larger;
+    font-weight: bold;
+    color: #00a6fb;
+    margin: 0.75rem;
+}
+
+#course-content{
+    border-bottom: 3px #00a6fb solid;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 3.5em;
+    background-color: black;
+}
+
+#course-content h2{
+    letter-spacing: 5px;
+    line-height: 150%;
+    text-transform: uppercase;
+    font-size: x-large;
+    font-weight: bold;
+    color:#00a6fb;
+}
+
+#course-content p{
+    font-size: small;
+    color: whitesmoke;
+}
+
+.modules-list{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.modules-list .module{
+    border: 2px #00a6fb solid;
+    border-radius: 50px;
+    color: whitesmoke;
+    font-size: small;
+    padding: 1em;
+    margin: 1em;
+    background-color: rgb(77, 77, 77);
+    grid-column: 2 / 3;
+}
+
+.modules-list .module span{
+    color: #00a6fb;
+}
+
+#transform-world{
+    border-bottom: 3px #00a6fb solid;
+    padding: 4.5em;
+    background-image: linear-gradient(black,black),url("./assets/images/woman-code.png");
+    background-blend-mode:exclusion;
+    background-size: cover;
+    background-position: 60% 40%;
+}
+
+#transform-world p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+    font-weight:900;
+    font-size: 40px;
+    margin-left: 2.5em;
+    text-transform: lowercase;
+    text-shadow: 3px 3px #00a6fb;
+}
+
+#professional-challenges{
+    border-bottom:3px #00a6fb solid;
+    text-align: center;
+    padding: 3em;
+    background-color: black;
+}
+
+#professional-challenges h2{
+    font-size: xx-large;
+    font-weight:bold;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #00a6fb;
+}
+
+#professional-challenges p{
+    letter-spacing: 2px;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+}
+
+footer{
+    text-align: center;
+    background-image: linear-gradient(black,#122d3b);
+    padding: 2em;
+}
+
+footer p{
+    color: whitesmoke;
+}
+
+footer a{
+    text-decoration: none;
+    color: #00a6fb;
+    font-weight: bold;
+}
